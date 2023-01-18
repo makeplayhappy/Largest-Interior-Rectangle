@@ -1237,7 +1237,7 @@ namespace Evryway
             {
                 Vector2 centre = best_origin + (best_span * 0.5f);
                 Vector2 size = best_span;
-                Debug.Log($"best area : {best_area} {centre.F3()} {size.F3()}");
+                //Debug.Log($"best area : {best_area} {centre.F3()} {size.F3()}");
 
                 //Debug.Log($"X : {xstart} {xend}, Y : {ystart} {yend}");
                 //Debug.Log($"Centre: {centre.F3()} size : {size.F3()}");
@@ -1618,5 +1618,4 @@ namespace Evryway
     }
 
 
-}
 }
